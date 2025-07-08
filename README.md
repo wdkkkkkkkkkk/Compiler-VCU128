@@ -24,7 +24,7 @@
 ### Quick Start
 
 1. **环境配置**  
-   - 根据 `requirements.txt` 配置所需环境，配置方法已在 `requirements.txt` 文件中给出。
+   - 根据 `requirements.txt` 配置所需环境，配置方法为：pip install -r requirements.txt 
 
 2. **修改 `main.sh`**  
    - 将未量化的 Dense 模型名称写入 `main.sh` 中，并修改 `model_path`。  
@@ -69,8 +69,7 @@ This project is derived from the existing VCU128 RTL code and aims to perform qu
 ### Quick Start
 
 1. **Environment Setup**  
-   - Install the required dependencies listed in `requirements.txt` according to the instructions provided.
-
+   - Install the required dependencies listed in `requirements.txt` You can use pip install -r requirements.txt to set up the enviroment.
 2. **Edit `main.sh`**  
    - Place the unquantized Dense model name in `main.sh` and modify `model_path`.  
    - If needed, you can adjust other parameters as well.
